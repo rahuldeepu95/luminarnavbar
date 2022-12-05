@@ -1,0 +1,36 @@
+img {
+    height: 80px;
+    margin-left: 120px;
+}
+.menu1 {
+    font-size: 18px;
+    font-weight:600;
+}
+.menu {
+    margin-right: 160px;
+    
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    
+    background-color: 
+  #6C4AB6;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
